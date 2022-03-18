@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+<body>
+  <div>
+    <header class="header">
+      <div class="mobile-nav__hamburger-icon-container">
+        <img
+          class="mobile-nav__hamburger-icon"
+          src="../../assets/shared/tablet/icon-hamburger.svg"
+          alt="menu icon"
+        />
+      </div>
+  
+      <div class="logo-container">
+        <a>
+          <img src="../../assets/shared/desktop/logo.svg" alt="logo" />
+        </a>
+      </div>
+  
+      <nav class="desktop-nav">
+        <ul class="desktop-nav__list">
+          <li class="desktop-nav__link">
+            <a href="/index.html"> Home </a>
+          </li>
+          <li class="desktop-nav__link">
+            <a href="/categoryheadphones.html"> Headphones </a>
+          </li>
+          <li class="desktop-nav__link">
+            <a href="/categoryspeakers.html"> Speakers </a>
+          </li>
+          <li class="desktop-nav__link">
+            <a href="/categoryearphone.html"> Earphones </a>
+          </li>
+        </ul>
+      </nav>
+  
+      <div class="cart-icon__container">
+        <img src="../../assets/shared/desktop/icon-cart.svg" alt="cart icon" />
+      </div>
+    </header>
+  </div>
+  
+<div>
+  <div class='checkout-page-container'>
+      
+      <a class='go-back-link'>Go Back</a>
+      <form >
+          <div class='checkout-wrapper'>
+          <h2>Checkout</h2>
+              <div class='billing-details'>
+                  <h3 class='sub-title'>billing details</h3>
+                  <div class='input-wrapper'>
+                      <label class='nameInput'>Name</span></label>
+                      <input class=userName 
+                          type='text'
+                          name='userName'
+                          id='nameInput'
+                          placeholder='Alexi Ward'
+                      />
+                  </div>
+                  <div class='input-wrapper'>
+                      <label class=userEmailFormat>Email Address </label>
+                      <input class=userEmailFormat
+                          type='text'
+                          name='userEmail'
+                          id='emailInput'
+                          placeholder='alexei@email.com'
+                      />
+                  </div>
+                  <div class='input-wrapper'>
+                      <label>Phone Number</label>
+                      <input 
+                          type='number'
+                          name='userPhoneNumber'
+                          id='phoneInput'
+                          placeholder='+1202-555-0136'
+                      />
+                  </div>
+              </div>
+              <div class='shipping-info-wrapper'>
+                  <h3 class='sub-title'>Shipping info</h3>
+                  <div class='input-wrapper user-adres-input-wrapper'>
+                      <label class=userAdress>Your Addres</label>
+                      <input class=userAdress
+                          type='text'
+                          name='userAddress'
+                          id='addressInput'
+                          placeholder='1137 Williams Avenue'
+                      />
+                  </div>
+                  <div class='input-wrapper'>
+                      <label  class=userZipCode>Zip Code</label>
+                      <input class=userZipCode
+                          type='text'
+                          name='userZipCode'
+                          id='zipCodeInput'
+                          placeholder='10001'
+                      />
+                  </div>
+                  <div class='input-wrapper'>
+                      <label>City</label>
+                      <input 
+                          type='text'
+                          name='userCity'
+                          id='cityInput'
+                          placeholder='New York'
+                      />
+                  </div>
+                  <div class='input-wrapper'>
+                      <label>Country</label>
+                      <input 
+                          type='text'
+                          name='userCountry'
+                          id='countryInput'
+                          placeholder='United States'
+                      />
+                  </div>
+              </div>
+              <div class='payment-details-wrapper'>
+              <h2 class='sub-title'>Payment details</h2>
+              <div class='input-wrapper'>
+                      <h4 class='payment-method-title'>payment method</h4>
+                      <div class='payment-method-inputs-wrapper'>
+                          <label  class='payment-method-label active'>
+                              <input 
+                                  type='radio'
+                                  id='eMoneyInput'
+                                  value='e-money'
+                                  name='paymentMethod'
+                                  checked
+                              />
+                          e-Money</label>
+                          <label class='payment-method-label' >
+                              <input 
+                                  type='radio'
+                                  id='cashOnDeliveryInput'
+                                  value='cash on delivery'
+                                  name='paymentMethod'
+                              />
+                          Cash on Delivery</label>
+                      </div>
+                      <div class='payment-numbers-wrapper'>
+                          <div class='input-wrapper'>
+                              <label class=usereMoneyNumber>e-Money Number</label>
+                              <input class=usereMoneyNumber
+                                  type='number'
+                                  placeholder='238521993'
+                                  id='e-money-number'
+                                  name='eMoneyNumber'
+                              />
+                          </div>
+                          <div class='input-wrapper'>
+                              <label class=usereMoneyNumber>e-Money Pin </label>
+                              <input class=usereMoneyNumber
+                                  type='number'
+                                  placeholder='238521993'
+                                  id='e-money-pin'
+                                  name='eMoneyPin'
+                              />
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class='summary-wrapper'>
+              <h2>Summary</h2>
+                  <div class='summary-wrapper__item-wrapper'>
+                      <div class='summary-wrapper__img-wrapper'> 
+                          <img src="/assets/cart/image-yx1-earphones.jpg" />
+                      </div>
+                      <div class='summary-wrapper__txt-wrapper'>
+                          <h4>yx1</h4>
+                          <p>$211</p>
+                      </div>
+                      <div class='summary-wrapper__qty-container'>
+                          <span>x1</span>
+                      </div>
+                  </div>
+                  <div class='summary-wrapper__item-wrapper'>
+                    <div class='summary-wrapper__img-wrapper'> 
+                        <img src="/assets/cart/image-yx1-earphones.jpg" />
+                    </div>
+                    <div class='summary-wrapper__txt-wrapper'>
+                        <h4>yx1</h4>
+                        <p>$211</p>
+                    </div>
+                    <div class='summary-wrapper__qty-container'>
+                        <span>x3</span>
+                    </div>
+                </div>
+              <div class='pricing-wrapper'>
+                      <div class='pricing-wrapper__price-wrapper'>
+                          <h3>total</h3>
+                          <span>$690.71</span>
+                      </div>
+                      
+                      <div class='pricing-wrapper__price-wrapper'>
+                          <h3>shipping</h3>
+                          <span>Free</span>
+                      </div>
+
+                      <div class='pricing-wrapper__price-wrapper'>
+                          <h3>vat(included)</h3>
+                          <span>$123.72</span>
+                      </div>
+
+                      <div class='pricing-wrapper__price-wrapper pricing-wrapper__grand-total-wrapper'>
+                          <h3>grand total</h3>
+                          <span class='pricing-wrapper__grand-total-price'>$1234</span>
+                      </div>
+                  </div>
+                  <button class='submit-btn link-btn-orange' type='submit'>CONTINUE & PAY</button>
+          </div>
+      </form>
+      
+  </div>
+</div>
+<footer class="footer">
+    <div class="footer-decoration"></div>
+    <div class="footer__logo-container">
+      <img src=../../assets/shared/desktop/logo.svg alt="logo"/>
+    </div>
+    <ul class="footer-nav">
+      <li class="footer-nav__link">
+        <a to="/"> Home </a>
+      </li>
+      <li class="footer-nav__link">
+        <a to="/headphones"> headphones </a>
+      </li>
+      <li class="footer-nav__link">
+        <a to="/speakers"> speakers </a>
+      </li>
+      <li class="footer-nav__link">
+        <a to="/earphones"> earphones </a>
+      </li>
+    </ul>
+  
+    <div class="footer__text-wrapper">
+      <p class="footer__text">
+        Audiophile is an all in one stop to fulfill your audio needs. We're a
+        small team of music lovers and sound specialists who are devoted to
+        helping you get the most out of personal audio. Come and visit our demo
+        facility - we’re open 7 days a week.
+      </p>
+    </div>
+  
+    <div class="footer__copyright-wrapper">
+      <p class="footer__copyright">Copyright 2021. All Rights Reserved</p>
+    </div>
+  
+    <div class="footer__social-wrapper">
+      <a class="footer__social-link" href="https://en-gb.facebook.com/">
+        <img src=../../assets/shared/desktop/icon-facebook.svg alt="facebook
+        icon"/>
+      </a>
+      <a class="footer__social-link" href="https://twitter.com/?lang=en-gb">
+        <img src=../../assets/shared/desktop/icon-twitter.svg alt="twitter icon"/>
+      </a>
+      <a class="footer__social-link" href="https://www.instagram.com/">
+        <img src=../../assets/shared/desktop/icon-instagram.svg alt="instagram
+        icon"/>
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
